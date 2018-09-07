@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Neil Launcher",
+  "description": "Quick launch Neil",
+  "version": "1.0.0",
+  "icons": {"128": "N-icon-128.png"},
+  "browser_action": {
+    "default_icon": "N-icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
